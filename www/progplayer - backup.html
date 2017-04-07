@@ -1,0 +1,148 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+
+
+function startTime() {
+		var Datum = new Date(); 
+		var dag = Datum.getDay()-3;  
+		var uur = Datum.getHours ();
+        var progNu = document.getElementById('progTitel')
+        var progStraks = document.getElementById('progLater')
+		var ProgImg = document.getElementById('progFoto')
+		var ProgFoto = document.getElementById('progFoto')
+		
+
+        	
+		if (dag==6 || dag==0 && uur >= 8 && uur < 10) { 
+			progNu.innerHTML = "Non-stop hits"; 
+            progStraks.innerHTML= "Koffie en Thee met Arie-V";} 
+		else 	
+			
+		if (dag==6 || dag==0 && uur >= 10 && uur < 11) { 
+			progNu.innerHTML = "Koffie en Thee met Arie-V"; 
+            progStraks.innerHTML= "DE HITS GEZONGEN MET van Dongen";} 
+		else  
+		
+		if (dag==6||0 && uur >= 11 && uur < 12) { 
+			progNu.innerHTML = "DE HITS GEZONGEN MET van Dongen"; 
+            progStraks.innerHTML="Typisch Sander";} 
+		else  
+
+		if (dag==6||0 && uur >= 12 && uur < 13) { 
+			progNu.innerHTML = "Typisch Sander";
+			progStraks.innerHTML="Nac Praat herhaling van donderdag";}
+		else  
+
+		if (dag==6 && uur >= 13 && uur < 14) { 
+			progNu.innerHTML = "Nac Praat herhaling van donderdag"; 
+			progStraks.innerHTML="Team NL hits van heden";} 
+		else  
+		
+		if (dag==0 && uur >= 13 && uur < 14) { 
+			progNu.innerHTML = "Team NL hits van heden"; 
+			progStraks.innerHTML="Typisch 80"; } 
+		else  
+		
+		if (dag==6||0 && uur >= 14 && uur < 16) { 
+			progNu.innerHTML = "Typisch 80"; 
+			progStraks.innerHTML="Koen in the Afternoon";
+			progFoto.src="t80.jpg";} 
+		else  
+
+		if (dag==6||0 && uur >= 16 && uur < 17) { 
+			progNu.innerHTML = "Koen in the Afternoon"; 
+			progStraks.innerHTML="Nonstop top 40 hits";
+			progFoto.src="koen.jpg";} 			
+		else  
+
+		if (dag==6 && uur >= 17 && uur < 19) { 
+			progNu.innerHTML = "Nonstop top 40 hits"; 
+			progStraks.innerHTML="Team NL Voor het stappen gaan";} 
+		else  
+
+		if (dag==6 && uur >= 19 && uur < 21) { 
+			progNu.innerHTML = "Team NL Voor het stappen gaan"; 
+			progStraks.innerHTML="Weekeind Kr8 Dance Classics";} 
+		else  
+
+		if (dag==6 && uur >= 22 && uur < 24) { 
+			progNu.innerHTML = "Weekeind Kr8 Dance Classics"; 
+			progStraks.innerHTML="Non-stop hits";} 
+		else  
+
+		if (dag==0 && uur >= 17 && uur < 18) { 
+			progNu.innerHTML = "Nonstop top 40 hits"; 
+			progStraks.innerHTML="Hits From The Heartland Camiel Janszen";} 
+		else  
+
+		if (dag==0 && uur >= 18 && uur < 20) { 
+			progNu.innerHTML = "Hits From The Heartland Camiel Janszen"; 
+			progStraks.innerHTML="The Symfo Experience met Ad van Loon";} 
+		else  
+
+		if (dag==0 && uur >= 20 && uur < 22) { 
+			progNu.innerHTML = "The Symfo Experience met Ad van Loon"; 
+			progStraks.innerHTML="Non-stop hits";} 
+		
+		else  {		 
+			progNu.innerHTML = "Non-stop hits"; 
+			progStraks.innerHTML="Non-stop hits";} 
+        var t = setTimeout(startTime, 500);    
+}
+</script>
+
+		<script>
+			var player;
+			var progressbar;
+			var playKnop;
+			var pauseKnop;
+			function loadPlayer()
+				{
+					player= document.getElementById('player');
+					playKnop = document.getElementById('playKnop');
+					pauseKnop = document.getElementById('pauseKnop');
+					
+					pauseKnop.style.display='none';	
+				}
+			function playMusic()
+				{
+					player.play();
+					playKnop.style.display='none';
+					pauseKnop.style.display='inline';
+				}
+			function pauseMusic()
+				{
+					player.pause();
+					pauseKnop.style.display='none';
+					playKnop.style.display='inline';
+				}
+				
+		</script>
+
+</head>
+
+<body onload="startTime(); loadPlayer();">
+
+<div>
+<div>
+<img style="height:100%; max-height:200px;" id="progFoto" src="loading.gif" alt="Programma afbeelding">
+</div>
+<p >NU: <span id="progTitel"></span><p>
+<p style="font-size:70%">Straks: <span id="progLater"></span><p>
+</div>
+
+
+
+	<div id="1">
+		<a id="playKnop" href="JavaScript:playMusic()"><img style="width:100px; height:100px;" src="play.png"> </a> <a id="pauseKnop"href="JavaScript:pauseMusic()"><img style="width:100px; height:100px;" src="pause.png"></a><br>
+		<audio id="player">
+			<source src="http://cjbroadcastservicenl.gkstreamen.nl:8004/;&type=mp3" type="audio/mpeg">
+			<source src="music.ogg" type="audio/ogg">
+			
+		</audio>
+		</div>
+
+</body>
+</html>

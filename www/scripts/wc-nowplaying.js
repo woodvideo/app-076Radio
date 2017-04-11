@@ -1,7 +1,7 @@
 function startTime() {
 		var Datum = new Date(); 
-		var dag = Datum.getDay()+1;  
-		var uur = Datum.getHours()+1;
+		var dag = Datum.getDay();  
+		var uur = Datum.getHours();
         var progNu = document.getElementById('progTitel')
         var progStraks = document.getElementById('progLater')
 		var ProgImg = document.getElementById('progFoto')

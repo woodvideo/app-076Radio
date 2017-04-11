@@ -12,24 +12,24 @@ function startTime() {
         	
 		if (dag==6 && uur >= 8 && uur < 10) { 
 			progNu.innerHTML = "Non-stop hits"; 
-            progStraks.innerHTML= "Koffie en Thee met Arie-V";
+            progStraks.innerHTML= "Het besten van Antoon van der Westen";
 			progFoto.src="logos/ns.jpg";} 
 		else 
 
 		if (dag==0 && uur >= 8 && uur < 10) { 
 			progNu.innerHTML = "Non-stop hits"; 
-            progStraks.innerHTML= "Koffie en Thee met Arie-V";
+            progStraks.innerHTML= "Het besten van Antoon van der Westen";
 			progFoto.src="logos/ns.jpg";} 
 		else 			
 			
 		if (dag==6 && uur >= 10 && uur < 11) { 
-			progNu.innerHTML = "Koffie en Thee met Arie-V"; 
+			progNu.innerHTML = "Het besten van Antoon van der Westen"; 
             progStraks.innerHTML= "DE HITS GEZONGEN MET van Dongen";
 			progFoto.src="logos/ktmav.png";} 
 		else  
 		
 		if (dag==0 && uur >= 10 && uur < 11) { 
-			progNu.innerHTML = "Koffie en Thee met Arie-V"; 
+			progNu.innerHTML = "Het besten van Antoon van der Westen"; 
             progStraks.innerHTML= "DE HITS GEZONGEN MET van Dongen";
 			progFoto.src="logos/ktmav.png";} 
 		else  
@@ -48,36 +48,36 @@ function startTime() {
 
 		if (dag==6 && uur >= 12 && uur < 13) { 
 			progNu.innerHTML = "Typisch Sander";
-			progStraks.innerHTML="Nac Praat herhaling van donderdag";
+			progStraks.innerHTML="Typisch Sander non-stop";
 			progFoto.src="logos/ts.jpg";}
 		else  
 			
 		if (dag==0 && uur >= 12 && uur < 13) { 
 			progNu.innerHTML = "Typisch Sander";
-			progStraks.innerHTML="Nac Praat herhaling van donderdag";
+			progStraks.innerHTML="Typisch Sander non-stop";
 			progFoto.src="logos/ts.jpg";}
 		else  
 
 		if (dag==6 && uur >= 13 && uur < 14) { 
-			progNu.innerHTML = "Nac Praat herhaling van donderdag"; 
-			progStraks.innerHTML="Team NL hits van heden";
+			progNu.innerHTML = "Typisch Sander non-stop"; 
+			progStraks.innerHTML="NAC Praat Herhaling";
 			progFoto.src="logos/np.jpg";} 
 		else  
 		
 		if (dag==0 && uur >= 13 && uur < 14) { 
-			progNu.innerHTML = "Team NL hits van heden"; 
-			progStraks.innerHTML="Typisch 80"; 
+			progNu.innerHTML = "Typisch Sander non-stop"; 
+			progStraks.innerHTML="Weekendkr8 Dance Classics"; 
 			progFoto.src="logos/teamnl.jpg";} 
 		else  
 		
 		if (dag==6 && uur >= 14 && uur < 16) { 
-			progNu.innerHTML = "Typisch 80"; 
+			progNu.innerHTML = "NAC Praat Herhaling"; 
 			progStraks.innerHTML="Koen in the Afternoon";
 			progFoto.src="logos/t80.jpg";} 
 		else  
 
 		if (dag==0 && uur >= 14 && uur < 16) { 
-			progNu.innerHTML = "Typisch 80"; 
+			progNu.innerHTML = "Weekendkr8 Dance Classics"; 
 			progStraks.innerHTML="Koen in the Afternoon";
 			progFoto.src="logos/t80.jpg";} 
 		else  			

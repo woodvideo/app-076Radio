@@ -362,6 +362,13 @@ textarea{font-family:'Roboto', sans-serif;}
 .color-blue-light{color: #3498db!important;}
 .color-blue-dark{color: #2980b9!important;}
 
+
+.bg-nacgeel{background-color: #ffff00!important; color:#000000!important;}
+.border-nacgeel{ border:solid 1px #ffff00!important;}
+.bg-hover-nacgeel:hover{background-color: #ffff00!important; color:#000000!important; transition:all 200ms ease;}
+.color-nacgeel{color: #ffff00!important;}
+
+
 .bg-zand{background-color: #ba9e7b!important; color:#FFFFFF!important;}
 .border-zand{ border:solid 1px #ba9e7b!important;}
 .bg-hover-zand:hover{background-color: #ba9e7b!important; color:#FFFFFF!important; transition:all 200ms ease;}
@@ -452,6 +459,8 @@ textarea{font-family:'Roboto', sans-serif;}
     color:#FFFFFF;
 }
 
+.nacgeel-bg{          	background-color:#ffff00;    color:#000000; border:solid 1px #ffff00;}
+.nacgeel-bg:hover{    	background-color:#ffff00;    color:#000000; border:solid 1px #ffff00;}
 .zandkleur-bg{          background-color:#ba9e7b;    color:#FFFFFF; border:solid 1px #ba9e7b;}
 .zandkleur-bg:hover{    background-color:#ba9e7b;    color:#FFFFFF; border:solid 1px #ba9e7b;}
 .facebook-bg{           background-color:#3b5998;    color:#FFFFFF; border:solid 1px #3b5998;}
@@ -483,6 +492,7 @@ textarea{font-family:'Roboto', sans-serif;}
 .skype-bg{              background-color:#12A5F4;    color:#FFFFFF; border:solid 1px #27ae60;}
 .skype-bg:hover{        background-color:#0f95dd;    color:#FFFFFF; border:solid 1px #27ae60;}
 
+.nacgeel-color{		color:#ffff00 !important}
 .zandkleur-color{	color:#ba9e7b !important}
 .facebook-color{    color:#3b5998!important;}
 .linkedin-color{    color:#0077B5!important;}
@@ -1993,6 +2003,11 @@ ol ol ol{list-style-type:disc;}
 .button-zand-3d{border:none!important; border-bottom:solid 5px #ba9e7b!important; padding:0px 22px;}
 .button-zand:hover{background-color:#ad916f; border:solid 2px #ad916f;}
 .button-zand:active{background-color:#ad916f; border:solid 2px #ad916f;}
+
+.button-nacgeel{background-color:#ffff00; border:solid 2px #ffff00;}
+.button-nacgeel-3d{border:none!important; border-bottom:solid 5px #ffff00!important; padding:0px 22px;}
+.button-nacgeel:hover{background-color:#ffff51; border:solid 2px #ffff51;}
+.button-nacgeel:active{background-color:#ffff51; border:solid 2px #ffff51;}
 
 .button-green{background-color:#27ae60; border:solid 2px #27ae60;}
 .button-green-3d{border:none!important; border-bottom:solid 5px #1e7b45!important; padding:0px 22px;}

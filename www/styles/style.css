@@ -269,6 +269,7 @@ body{
 .submenu-active{
     max-height:410px!important;
     transition:all 250ms ease;
+	color:#191919 !important;
 }
 
 .submenu-clear{
@@ -372,7 +373,7 @@ body{
     animation-timing-function: ease;
     animation-iteration-count: infinite;
     animation-delay: 0s;
-	background: rgba(0, 0, 0, 0.6);
+	    color: rgba(0,0,0,0.5)!important;
 }
 
 @-moz-keyframes activemenu {  

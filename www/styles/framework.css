@@ -2591,8 +2591,8 @@ ul.tabs li.current{
 .accordion-ghost .accordion-toggle{padding-left:0px!important;}
 .accordion-ghost .accordion-content{padding:0px!important;}
 .accordion-ghost .accordion-toggle i{width:10px;}
-.accordion-bg a{color:#FFFFFF;}
-.accordion-bg p{color:#FFFFFF!important; margin-bottom:0px!important;}
+.accordion-bg a{color:##232323;}
+.accordion-bg p{color:#000000!important; margin-bottom:0px!important;}
 
 /*---------------*/
 /*---Dropdowns---*/

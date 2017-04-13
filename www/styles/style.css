@@ -12,6 +12,63 @@ audio::-webkit-media-controls-panel {
     width: calc(100% + 30px); /* eigenlijk niet meer nodig*/
 }
 
+.mobileui-music-cover-controls-alternate{
+	z-index: 9999;
+    height: 60px;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+}
+
+.mobileui-music-cover-controls-alternate .play{
+    height:60px; width:60px; line-height:60px; text-align:center;
+    color:#FFFFFF;
+    position:absolute;
+    z-index:10;
+    left:5%;
+	top:50%;
+    margin-left:-30px;
+    font-size:30px;
+    bottom:0px;
+}
+
+.onlinebalk{
+    position:absolute;
+    z-index:99;
+	left: 50%;
+	display: inline-block;
+}
+
+
+
+.onlinebalk h1{
+    color:#FFFFFF;
+    font-size:18px;
+    font-weight:400;
+    margin-top:10px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+}
+
+.onlinebalk h2{
+    margin-top:0px;
+    color:rgba(255,255,255,0.5);
+    font-size:15px;
+    font-weight:400;
+    height:30px;
+    line-height:10px;
+    text-align:center;
+}
+.mobileui-music-cover-time p{
+    margin-top:0px;
+    color:#FFFFFF;
+    font-size:12px;
+    font-weight:400;
+    height:30px;
+    line-height:10px;
+    text-align:center;
+}
 
 
 progress {
@@ -24,6 +81,27 @@ progress::-webkit-progress-value {
 }
 progress::-moz-progress-bar {
 }
+
+
+
+iframe {
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	}
+
+#id_div_top_row {
+    height:80%;
+	}
+#id_iframe_top {
+	background-color: Red;
+    height:100%;
+	width: 100%;
+	}
+
+
 
 
 

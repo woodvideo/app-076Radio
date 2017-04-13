@@ -1,0 +1,16 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+iframe {
+	box-sizing: border-box;
+}
+#id_div_top_row {
+    height:90%;
+}
+#id_iframe_top {
+    height:100%;
+	width: 100%;
+}
+#id_iframe_low{
+    height:100%;
+	width: 100%;
+}	

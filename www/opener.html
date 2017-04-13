@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<title>Player</title>
+    
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/skin.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/wc-nowplaying.js"></script>
+<!-- <script type="text/javascript" src="scripts/wc-player.js"></script> -->
+</head>
+
+<body onload="startTime();">
+<div id="page-transitions">
+    
+<div class="page-preloader page-preloader-dark">
+    <div class="spinner"></div>
+</div>
+    
+<div class="landing-menu landing-light hidden-menu">
+    <div class="landing-menu-scroll">
+        <div class="landing-header">
+            <h1><span>076 RADIO<span></h1>
+            <a href="#" class="landing-remove"><i class="ion-navicon"></i></a>
+            <div class="clear"></div>
+        </div>
+        <div class="menu-items">
+            <a class="menu-item active-submenu" href="opener.html">
+                <i class="border-nacgeel bg-nacgeel ion-headphone"></i>
+                <em>Live</em>
+            </a>
+            <a class="menu-item" href="programmas.html">
+                <i class="border-nacgeel bg-nacgeel ion-levels"></i>
+                <em>Programmas</em>
+            </a>
+            <a class="menu-item" href="#">
+                <i class="border-nacgeel bg-nacgeel ion-person-stalker"></i>
+                <em>Team</em>
+            </a>
+            <div class="clear"></div>
+
+			<a class="menu-item" href="#">
+                <i class="border-nacgeel bg-nacgeel ion-email"></i>
+                <em>Contact</em>
+            </a>
+
+            <div class="clear"></div>
+
+            <div class="decoration"></div>
+            <div class="landing-socials">
+                <div class="clear"></div>
+                <p class="center-text">Copyright <span class="copyright-year"></span> WoodCreate.</p>
+            </div>
+        </div>
+    </div>    
+</div>
+    
+<div class="header header-light">
+    <h1><span>076 RADIO<span></h1>
+    <a href="#" class="landing-deploy"><i class="ion-navicon"></i></a>
+    <div class="clear"></div>
+</div>
+            
+<div id="page-content">
+    <div id="page-content-scroll">	
+        <div class="page-fullscreen bg-breda">
+            <div class="page-fullscreen-content">
+                <div class="mobileui-music-cover">
+                    <img style="height:100%; max-height:200px;" id="progFoto" src="img\loading.gif" alt="Programma afbeelding">
+                    <h1>NU: <span id="progTitel"></span></h1>
+					<h2><i id="progAuto" class="ion-mic-c"></i> <span id="progPres"></span></h2>
+                    <h2>Straks: <span id="progLater"></span></h2>
+                    <div class="mobileui-music-cover-time">
+					<a id="progUrl" href="#"></a>
+
+                    </div>
+                </div>                   
+            </div>
+            <div class="overlay dark-overlay"></div>
+			<script type="text/javascript" src="scripts/wc-player.js"></script>
+        </div> 
+        
+    </div>  
+</div>
+    
+    
+</div>
+</body>

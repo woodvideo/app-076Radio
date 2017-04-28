@@ -2004,6 +2004,11 @@ ol ol ol{list-style-type:disc;}
 .button-zand:hover{background-color:#ad916f; border:solid 2px #ad916f;}
 .button-zand:active{background-color:#ad916f; border:solid 2px #ad916f;}
 
+.button-grijs{background-color:#191919; border:solid 2px #191919;}
+.button-grijs-3d{border:none!important; border-bottom:solid 5px #191919!important; padding:0px 22px;}
+.button-grijs:hover{background-color:#070707; border:solid 2px #070707;}
+.button-grijs:active{background-color:#ffff00; border:solid 2px #ffff00;}
+
 .button-nacgeel{background-color:#ffff00; border:solid 2px #ffff00;}
 .button-nacgeel-3d{border:none!important; border-bottom:solid 5px #ffff00!important; padding:0px 22px;}
 .button-nacgeel:hover{background-color:#ffff51; border:solid 2px #ffff51;}

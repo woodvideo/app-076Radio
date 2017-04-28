@@ -21,7 +21,7 @@
 <!-- <script type="text/javascript" src="scripts/wc-player.js"></script> -->
 </head>
 
-<body onload="startTime();">
+<body>
 <div id="page-transitions">
     
 <div class="page-preloader page-preloader-dark">
@@ -84,12 +84,13 @@
                     <h2><span id="progLater"></span></h2>
                     <div class="mobileui-music-cover-time">
 					<a id="progUrl" href="#"></a>
-
                     </div>
                 </div>                   
             </div>
             <div class="overlay dark-overlay"></div>
-			<script type="text/javascript" src="scripts/wc-player.js"></script>
+			<script type="text/javascript">
+				startTime();
+			</script>
         </div> 
         
     </div>  

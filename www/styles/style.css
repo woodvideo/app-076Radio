@@ -41,22 +41,28 @@ audio::-webkit-media-controls-panel {
     right: 0px;
 }
 
-.mobileui-music-cover-controls-alternate .play{
-    height:60px; width:60px; line-height:60px; text-align:center;
-    color:#FFFFFF;
-    position:absolute;
-    z-index:10;
-    left:15px;
-	top:20px;
-    margin-left:-30px;
-    font-size:30px;
-    bottom:0px;
+.mobileui-music-cover-controls-alternate .play {
+    height: 37px;
+    width: 37px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 10;
+    left: 40px;
+    top: 31px;
+    margin-left: -30px;
+    font-size: 30px;
+    bottom: 0px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid !important;
 }
 
 .onlinebalk{
     position:absolute;
     z-index:99;
-	left: 40px;
+	left: 55px;
 	display: inline-block;
 }
 

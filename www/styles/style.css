@@ -1,3 +1,8 @@
+/* FRAMEWORK OVERWRITES*/
+.accordion-toggle a{
+    font-size: 13px !important;
+}
+
 /* AJUSTMENTS NEEDED */
 
 audio::-internal-media-controls-download-button {
@@ -42,7 +47,7 @@ audio::-webkit-media-controls-panel {
     position:absolute;
     z-index:10;
     left:15px;
-	top:10px;
+	top:20px;
     margin-left:-30px;
     font-size:30px;
     bottom:0px;
@@ -58,18 +63,17 @@ audio::-webkit-media-controls-panel {
 
 .laagimage{
 	height:100%; 
-	max-height:60px; 
-	width:100%; 
-	max-width:60px; 
+	max-height:50px; 
 	float: right; 
-	top:30px; 
-	right:15px;
+	top:25px; 
+	right:5px;
+	z-index: 999;
 }
 
 
 .onlinebalk h1{
     color:#FFFFFF;
-    font-size:18px;
+    font-size:15px !important;
     font-weight:400;
     margin-top:10px;
     height:50px;
@@ -79,7 +83,7 @@ audio::-webkit-media-controls-panel {
 .onlinebalk h2{
     margin-top:0px;
     color:rgba(255,255,255,0.5);
-    font-size:15px;
+    font-size:14px; !important
     font-weight:400;
     height:30px;
     line-height:0px;

@@ -4,7 +4,7 @@ iframe {
 	box-sizing: border-box;
 }
 #id_div_top_row {
-    height:90%;
+    height:calc(100% - 60px);
 }
 #id_iframe_top {
     height:100%;

@@ -309,15 +309,15 @@ textarea{font-family:'Roboto', sans-serif;}
 .bg-transparent{background:transparent!important;}
 .bg-dark{background-color:rgba(0,0,0,0.3)!important;}
 .bg{background-image:url(../images/pictures/bg.jpg)}
-.bg-1{background-image:url(../images/pictures/1.jpg)}
-.bg-2{background-image:url(../images/pictures/2.jpg)}
-.bg-3{background-image:url(../images/pictures/3.jpg)}
-.bg-4{background-image:url(../images/pictures/4.jpg)}
-.bg-5{background-image:url(../images/pictures/5.jpg)}
-.bg-6{background-image:url(../images/pictures/6.jpg)}
-.bg-7{background-image:url(../images/pictures/7.jpg)}
-.bg-8{background-image:url(../images/pictures/8.jpg)}
-.bg-9{background-image:url(../images/pictures/9.jpg)}
+.bg-1{background-image:url(../images/pictures/1.jpg); background-size: cover;}
+.bg-2{background-image:url(../images/pictures/2.jpg); background-size: cover;}
+.bg-3{background-image:url(../images/pictures/3.jpg); background-size: cover;}
+.bg-4{background-image:url(../images/pictures/4.jpg); background-size: cover;}
+.bg-5{background-image:url(../images/pictures/5.jpg); background-size: cover;}
+.bg-6{background-image:url(../images/pictures/6.jpg); background-size: cover;}
+.bg-7{background-image:url(../images/pictures/7.jpg); background-size: cover;}
+.bg-8{background-image:url(../images/pictures/8.jpg); background-size: cover;}
+.bg-9{background-image:url(../images/pictures/9.jpg); background-size: cover;}
 .bg-breda{background-image:url(../img/toren.jpg)}
 .bg-ap{background-image:url(../images/lt/bg_1.jpg)}
 

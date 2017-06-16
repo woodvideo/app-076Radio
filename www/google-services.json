@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "261045094716",
+    "firebase_url": "https://radio-d3b93.firebaseio.com",
+    "project_id": "radio-d3b93",
+    "storage_bucket": "radio-d3b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261045094716:android:e289fe567bb311ee",
+        "android_client_info": {
+          "package_name": "nl.woodcreate.radiobreda.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261045094716-sul4bo6jp7d9ujlq0o39lh39egubdnum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdvb4uEbJ7cxQhnv1d9FErprvzW7u1mQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

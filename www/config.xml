@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="nl.woodcreate.radiobreda.app" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="nl.woodcreate.radiobreda.app" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>076 Radio</name>
     <description>
         076 Radio app
@@ -10,7 +10,10 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+	
+	<plugin spec="https://github.com/woodvideo/cordova-plugin-firebase.git" source="git" />
 
+<!-- 	<plugin name="cordova-plugin-firebase" spec="0.1.21" /> -->
 	<plugin name="cordova-plugin-firebase" spec="0.1.21" />
     <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
@@ -22,7 +25,8 @@
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
-    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />=    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />    
+	<plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 	
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="nl.woodcreate.radiobreda.app" version="1.1.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="nl.woodcreate.radiobreda.app" version="1.1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>076 Radio</name>
     <description>
         076 Radio app
@@ -10,6 +10,7 @@
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
+	<preference name="fullscreen" value="true" />
 	<preference name='phonegap-version' value='cli-6.5.0' />
 	
 	<!-- <plugin spec="https://github.com/woodvideo/cordova-plugin-firebase.git" source="git" /> --> <!-- voor Push berichten -->
@@ -117,4 +118,8 @@
 		<gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription" overwrite="true">
 		<string>We are using the Photo Library for upcomming features</string>
 	</gap:config-file>
+	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+    <false/>
+	</gap:config-file>
+	
 </widget>
